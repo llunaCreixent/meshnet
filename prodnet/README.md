@@ -56,7 +56,7 @@ We will configure the ESPRESSObin board so `wan` is used to connect point-to-poi
     saveenv
     ```
     
-    then run `boot` to boot into the SD card
+    then run `boot` to boot into the SD card. If after running `boot` you do not see the loging prompt, power off the board and wait 10 seconds before power on again.
 
 1. Login as `root` / `1234` then run [espressobin/install](espressobin/install) and go through the first-run menus.
 
